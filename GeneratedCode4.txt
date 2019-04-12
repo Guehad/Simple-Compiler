@@ -1,0 +1,15 @@
+Start hminsec  0
+LDA hours
+MUL sixity
+STA mins
+ 
+LDA mins
+MUL sixity
+STA secs
+ 
+hours RESW 1
+convert RESW 1
+mins RESW 1
+secs RESW 1
+sixity RESW 1
+END

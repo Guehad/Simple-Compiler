@@ -1,0 +1,14 @@
+Start eexp  0
+LDA a
+ADD b
+STR f
+ 
+LDA a
+MUL b
+STR h
+ 
+a RESW 1
+b RESW 1
+c RESW 1
+f RESW 1
+h RESW 1

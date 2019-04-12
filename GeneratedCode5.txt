@@ -1,0 +1,9 @@
+Start sumprog  0
+LDA x
+ADD y
+STA sum
+ 
+x RESW 1
+y RESW 1
+sum RESW 1
+END

@@ -1,0 +1,10 @@
+PROGRAM HMINSEC
+VAR 
+  hours,convert,mins,secs,sixity
+BEGIN 
+READ(hours);
+READ(convert); 
+mins:= hours*sixity;
+secs:= mins*sixity; 
+WRITE(mins,secs)
+END. 

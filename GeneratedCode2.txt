@@ -1,0 +1,21 @@
+Start eexp  0
+LDA a
+ADD b
+ADD left
+STR left
+ 
+LDA right
+ADD a
+ADD b
+STR right
+ 
+LDA left
+MUL right
+STR result
+ 
+a RESW 1
+b RESW 1
+left RESW 1
+right RESW 1
+result RESW 1
+END
